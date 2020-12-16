@@ -1,6 +1,7 @@
 <b>1	Collaborative Filtering Recommendation System</b>
 
 We here use collaborative filtering to predict the user’s interests for the YouTube videos and based on that suggest/recommend the user other videos from the YouTube trending videos dataset to watch using data collected by other users like him/her.
+
 Dummy Data Creation:
 
 <b>I.	Creating dummy users</b>
