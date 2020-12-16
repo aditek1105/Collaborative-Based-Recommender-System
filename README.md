@@ -60,11 +60,11 @@ The data frame will contain the users and the ratings ,this will be used for the
 <b>2.	Making Recommendations:</b>
 - 	For this the user provides in the video title as the input for which the similar videos must be suggested.
 
--    	The input would then be compared with the user-interaction matrix and a series will be created with the correlation values of all the video titles that can be recommended for the video title that has been given in as the input.
+-  The input would then be compared with the user-interaction matrix and a series will be created with the correlation values of all the video titles that can be recommended for the video title that has been given in as the input.
 
 -	The result will be converted into a data frame and after performing basic sorting and grouping of the data present in the series will allow the user to get the result that would be a list of videos and their correlation values.
 
--    These correlation values will be between 1 and -1 where 1 will be the closest/exact match of the video title for which the input was given and -1 means the video is either poorly rated or is not at all the match for the video given in as input.
+- These correlation values will be between 1 and -1 where 1 will be the closest/exact match of the video title for which the input was given and -1 means the video is either poorly rated or is not at all the match for the video given in as input.
 
 -	The result in sorted based on the correlation values as the highly suggested video will have a rating of 1 or closer to that value as compared to a video that has a lower band of correlation value.
  	 
